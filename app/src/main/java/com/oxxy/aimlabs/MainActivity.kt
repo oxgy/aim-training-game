@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 val alert = AlertDialog.Builder(this@MainActivity)
-                alert.setTitle("Gülseye koymuşum")
+                alert.setTitle("Time is up.")
                 alert.setMessage("Restart The Game?")
                 alert.setPositiveButton("Yes", DialogInterface.OnClickListener { dialog, which ->
                     //Restart
